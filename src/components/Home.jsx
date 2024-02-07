@@ -14,17 +14,13 @@ const Home = () => {
           translateY: "20px",
         }}
         transition={{
-          duration: 2,
+          duration: 1,
           repeat: Infinity,
           repeatType: "reverse",
         }}
       >
         <Image
-          w={"full"}
-          h={"full"}
-          objectFit={"contain"}
-          src={btcSrc}
-          filter={"grayscale(1)"}
+       src={btcSrc} alt="cryptoRank" h={'full'} w={'full'} objectFit={'contain'} filter={'grayscale(1)'} 
         />
       </motion.div>
 
@@ -32,10 +28,10 @@ const Home = () => {
         fontSize={"6xl"}
         textAlign={"center"}
         fontWeight={"thin"}
-        color={"whiteAlpha.700"}
-        mt={"-20"}
+        color={'rgb(252,211,76)'}
+        mt={"-25px"}
       >
-        Xcrypto
+        Crypto
       </Text>
     </Box>
   );
