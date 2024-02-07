@@ -31,7 +31,7 @@ const Home = () => {
         color={'rgb(252,211,76)'}
         mt={"-25px"}
       >
-        Crypto
+        CryptoWorld
       </Text>
     </Box>
   );
