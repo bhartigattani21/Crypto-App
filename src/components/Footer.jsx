@@ -1,4 +1,4 @@
-import { Box, Stack, Text, VStack } from "@chakra-ui/react";
+import {Avatar, Box, Stack, Text, VStack } from "@chakra-ui/react";
 import React from "react";
 
 
@@ -30,7 +30,7 @@ const Footer = () => {
           </Text>
         </VStack>
         <VStack w={["full", "40%"]}>
-        
+        <Avatar boxSize={"28"} mt={["4", "2"]} src={avatarSrc} />
           <Link
             color={"rgb(252,211,76)"}
             h={"none"}
