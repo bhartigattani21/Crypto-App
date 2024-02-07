@@ -29,6 +29,22 @@ const Footer = () => {
             cryptoRank.
           </Text>
         </VStack>
+        <VStack w={["full", "40%"]}>
+        
+          <Link
+            color={"rgb(252,211,76)"}
+            h={"none"}
+            target={"blank"}
+            href={"https://www.linkedin.com/in/bharti-gattani-539024227/"}
+            textTransform={"capitalize"}
+          >
+            Bharti Gattani
+          </Link>
+          <Text h={"auto"} fontWeight={"bold"} letterSpacing={"wider"}>
+            {" "}
+            Founder{" "}
+          </Text>
+        </VStack>
       </Stack>
     </Box>
   );
